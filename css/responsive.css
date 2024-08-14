@@ -1,0 +1,85 @@
+
+@media screen and (min-width:480px) {
+    
+    
+    
+}
+
+@media screen and (min-width:768px) {
+    .grouph-1 {
+        display: flex;
+        justify-content: space-between;
+        column-gap: 30px;
+        padding-left: 50px;
+    }
+    .navigation {
+        justify-content: space-between;
+        padding-right: 300px;
+    }
+    .button {
+        width: 150px;
+        left: 450px;
+    }
+    .main-description {
+        display: block;
+    }
+}
+
+@media screen and (min-width:1024px) {
+    .registration {
+        display: block;
+        background-color: red;
+        width: 120px;
+        height: 30px;
+        text-align: center;
+        padding-top: 6px;
+        border-radius: 4px;
+    }
+    .navigation {
+        padding: 10px 20px;
+    }
+    .popular-movies img {
+        width: 300px;
+        height: 270px;
+    }
+    .rating {
+        display: block;
+    }
+    .seriebi-seriebi img{
+        width: 230px;
+        height: 150px;
+    }
+}
+
+@media screen and (min-width:1600px) {
+    .button {
+        width: 200px;
+        height: 50px;
+    }
+    .popular-movies img {
+        width: 280px;
+        height: 400px;
+    }
+    .m-section img{
+        width: 280px;
+        height: 400px;
+    }
+    .s-section img{
+        width: 280px;
+        height: 400px;
+    }
+    .seriebi-seriebi img{
+        width: 280px;
+        height: 180px;
+    }
+    .name input {
+        width: 500px;
+    }
+    .last-name input {
+        width: 500px;
+    }
+    input,.registraciis-gilaki {
+        width: 1050px;
+    } 
+
+}

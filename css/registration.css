@@ -1,0 +1,158 @@
+body {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;   
+    background-image: url('../image/bigbg.jpg');
+    color: white;
+    scroll-behavior: smooth;
+}
+
+.navigation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 60px;
+    z-index: 999;
+    /* background-color: rgba(0, 0, 0, 0.6); */
+    background: linear-gradient(rgba(255, 0, 0, 0.2), rgba(0, 0, 0, 0.8));
+    border-bottom: 1px solid rgba(248, 0, 0, 0.4);
+}
+
+.logo {
+    font-size: 42px;
+    opacity: 100%;
+    color: red;
+}
+.grouph-1 {
+    display: none;
+    width: 500px;
+    font-size: 20px;
+}
+.registration {
+    display: none;
+}
+
+
+.main-main {
+    padding-inline: 20px;
+}
+
+/* registration section start */
+.registration-section {
+    width: 80%;
+    height: 85vh;
+    background-color: rgba(30, 1, 1, 0.6);
+    margin: 0 auto;
+    margin-top: 100px;
+    border-radius: 30px;
+    position: relative;
+    backdrop-filter: blur(10px);
+}
+
+h1 {
+    font-size: 30px;
+    font-weight: 600;
+    position: absolute;
+    top: 5%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.saxeli-gvari {
+    top: 15%;
+    display: flex;
+    gap: 50px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    
+}
+.name,.last-name {
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+}
+.date {
+    top: 30%;
+}
+.mobile {
+    top: 45%;
+}
+.email {
+    top: 60%;
+}
+.password {
+    top: 75%;
+}
+.registraciis-gilaki {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 90%;
+    width: 660px;
+    height: 50px;
+    background: linear-gradient(rgba(255, 0, 0, 0.8), rgba(0, 0, 255, 0.6));
+    border: none;
+    border-radius: 50px;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+}
+.ganlageba {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+}
+.name input {
+    width: 300px;
+}
+.last-name input {
+    width: 300px;
+}
+input {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    width: 650px;
+    height: 60px;
+    background-color: rgba(125, 123, 123, 0.9);
+    border-radius: 50px;
+}
+
+::placeholder {
+    font-size: 18px;
+    font-weight: 400;
+    color: silver;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* website scrollbar */
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: #100000;
+}
+
+::-webkit-scrollbar-thumb {
+    background: none;
+}

@@ -1,0 +1,42 @@
+.cssanimation, .cssanimation span {
+    animation-duration: 1s;
+    animation-fill-mode: both;
+}
+
+.cssanimation span { display: inline-block }
+
+.hu__hu__ { animation: hu__hu__ infinite 2s ease-in-out }
+@keyframes hu__hu__ {
+    75% {color: yellow;}
+}
+* {
+    transition: all 0.5s ease;
+}
+.grouph-1 a:hover {
+    color: rgba(255, 0, 0, 0.6);
+
+}
+.registration:hover {
+    background-color: white;
+    color: red;
+}
+.button:hover {
+    background-color: red;
+}
+.popular-card:hover {
+    transform: scale(1.1) translateY(-5px);
+}
+.m-section div:hover {
+    transform: scale(1.1) translateY(-5px);
+}
+.s-section div:hover {
+    transform: scale(1.1) translateY(-5px);
+}
+.registraciis-gilaki:hover {
+    background-color: red;
+}
+input:focus {
+    background: linear-gradient(rgb(224, 107, 107), rgb(176, 174, 174));
+    transform: translateY(-10px);
+    box-shadow: 5px 5px 10px red;
+}
